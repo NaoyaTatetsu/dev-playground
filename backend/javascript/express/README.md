@@ -12,7 +12,7 @@ npm i
 
 ### run server
 ```
-node src/server.js
+npm run start
 ```
 
 ### run server by docker
