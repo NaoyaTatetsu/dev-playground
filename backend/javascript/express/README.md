@@ -19,3 +19,10 @@ node src/server.js
 ```
 docker-compose up
 ```
+
+### curl
+
+ping
+```
+curl http://localhost:3000/api/v1/ping
+```
