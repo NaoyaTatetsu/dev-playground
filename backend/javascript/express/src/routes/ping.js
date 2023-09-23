@@ -5,8 +5,7 @@ import express from "express";
 const router = express.Router();
 
 /**
- * GET /api/v1/ping
- * pongが返ってくる
+ * ping
  */
 router.get("/api/v1/ping", (req, res) => {
   try {
