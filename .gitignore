@@ -1,2 +1,12 @@
-.DS_Store
+# js, ts
 node_modules
+
+# python
+.python-version
+__pycache__
+.mypy_cache
+
+.DS_Store
+.env
+.vscode
+.idea
