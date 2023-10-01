@@ -2,6 +2,7 @@ alembic
 fastapi
 flake8
 gunicorn
+httpx
 isort
 mypy
 mypy-extensions
@@ -13,5 +14,6 @@ python-jose
 python-multipart
 SQLAlchemy
 SQLAlchemy-Utils
+pytest
 python-dateutil
 uvicorn[standard]
