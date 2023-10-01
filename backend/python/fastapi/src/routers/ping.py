@@ -19,4 +19,4 @@ router = APIRouter(
 @router.get("/ping", response_model=PingSchema)
 def ping() -> PingSchema:
     """Ping API."""
-    return {"pong": "pong"}
+    return {"message": "pong"}
