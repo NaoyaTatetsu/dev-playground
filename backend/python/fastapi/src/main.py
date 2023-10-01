@@ -3,13 +3,13 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.routers import user
+from routers import ping
 
 app = FastAPI(
     title="FastAPI + Docker",
 )
 
-app.include_router(user.router)
+app.include_router(ping.router)
 
 app.add_middleware(
     CORSMiddleware,
